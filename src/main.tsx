@@ -8,9 +8,9 @@ import App from './App.tsx';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <MetronomeProvider>
-      <App />
-    </MetronomeProvider>
-  </React.StrictMode>,
+	<React.StrictMode>
+		<MetronomeProvider>
+			<App />
+		</MetronomeProvider>
+	</React.StrictMode>,
 );

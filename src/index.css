@@ -3,27 +3,27 @@
 @tailwind utilities;
 
 :root {
-  --c-primary: #4168e1;
-  --c-transparent: #ffffff05;
+	--c-primary: #4168e1;
+	--c-transparent: #ffffff05;
 }
 
 .Body {
-  min-height: calc(100vh - 7.75rem);
+	min-height: calc(100vh - 7.75rem);
 }
 
 .Flasher {
-  background: #000;
-  max-width: 90vw;
-  max-height: 90vh;
+	background: #000;
+	max-width: 90vw;
+	max-height: 90vh;
 }
 
 .Flasher.is-lit {
-  background-color: var(--c-primary);
-  animation: blink 0.095s linear 1;
+	background-color: var(--c-primary);
+	animation: blink 0.095s linear 1;
 }
 
 @keyframes blink {
-  50% {
-    opacity: 0.5;
-  }
+	50% {
+		opacity: 0.5;
+	}
 }
