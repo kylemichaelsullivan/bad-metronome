@@ -9,7 +9,7 @@ function Play() {
 	return (
 		<FontAwesomeIcon
 			icon={isRunning ? faPause : faPlay}
-			className='w-6 self-center rounded-full p-2 text-center text-2xl transition duration-300 hover:bg-gray-300'
+			className='Play w-6 self-center rounded-full p-2 text-center text-2xl transition duration-300 hover:bg-gray-300'
 		/>
 	);
 }

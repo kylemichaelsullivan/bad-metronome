@@ -6,13 +6,13 @@ function Range() {
 	return (
 		<input
 			type='range'
-			className='flex-1 cursor-pointer'
+			className='Range flex-1 cursor-pointer'
 			name='BPM'
 			min={5}
 			max={250}
 			step={5}
 			title='Select Tempo'
-			onChange={(e) => handleBpmChange(parseInt(e.target.value))}
+			onChange={e => handleBpmChange(parseInt(e.target.value))}
 			value={bpm}
 			id='bpm-slider'
 		/>
